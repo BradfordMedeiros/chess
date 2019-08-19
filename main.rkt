@@ -14,13 +14,12 @@
   )
 )
 
-(define bpawn-moves #(
+(define pawn-white-moves #(
   #(2 1 2)
   #(0 x 0)
   #(0 0 0)
 ))
-(define wpawn-moves (list->vector (reverse (vector->list bpawn-moves))))
-
+(define pawn-black-moves (list->vector (reverse (vector->list pawn-white-moves))))
 (define castle-moves #(
   #(0 4 0)
   #(4 x 4)
@@ -64,9 +63,11 @@
   ("hb" .  horse-moves       )
 ))
 
-
+(define (get-middle-spot moves) 
+   (print "not yet implemented")
+)
 (define (merge-board current-board piece-movess)
-   (print "todo")
+   (print "not yet implemented")
 )
 (define (remaining-pieces board color)
    (print "not yet implemented")
