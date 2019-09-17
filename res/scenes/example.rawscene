@@ -1,3 +1,13 @@
+#cameras
+>wcamera:position:-0.400000 21.900047 -22.700050
+>wcamera:scale:0.900000 0.700000 1.000000
+>wcamera:rotation:-0.863940 -0.000000 -6.283185
+>bcamera:position:-1.100000 21.900047 22.000048
+>bcamera:scale:0.900000 0.700000 1.000000
+>bcamera:rotation:-2.312539 0.006201 -3.161344
+
+##
+
 chessboard:scale:1.300000 1.300000 1.300000
 chessboard:rotation:0.000000 0.000000 -3.143185
 chessboard:mesh:./res/models/chessboard/chessboard.obj
