@@ -1,0 +1,173 @@
+chessboard:scale:1.300000 1.300000 1.300000
+chessboard:rotation:0.000000 0.000000 -3.143185
+chessboard:mesh:./res/models/chessboard/chessboard.obj
+
+#Black pieces
+#-------------------------
+p1b:position:8.699996 -1.700000 6.099992
+p1b:scale:1.000000 1.000000 1.000000
+p1b:rotation:0.000000 -0.000000 0.000000
+p1b:mesh:./res/models/pieces/pawn.obj
+p1b:parent:chessboard
+p2b:position:-8.799997 -1.700000 6.099992
+p2b:scale:1.000000 1.000000 1.000000
+p2b:rotation:0.000000 -0.000000 0.000000
+p2b:mesh:./res/models/pieces/pawn.obj
+p2b:parent:chessboard
+p3b:position:-6.099996 -1.700000 6.099992
+p3b:scale:1.000000 1.000000 1.000000
+p3b:rotation:0.000000 -0.000000 0.000000
+p3b:mesh:./res/models/pieces/pawn.obj
+p3b:parent:chessboard
+p4b:position:-3.699998 -1.700000 6.099992
+p4b:scale:1.000000 1.000000 1.000000
+p4b:rotation:0.000a000 -0.000000 0.000000
+p4b:mesh:./res/models/pieces/pawn.obj
+p4b:parent:chessboard
+p5b:position:-1.100000 -1.700000 6.099992
+p5b:scale:1.000000 1.000000 1.000000
+p5b:rotation:0.000000 -0.000000 0.000000
+p5b:mesh:./res/models/pieces/pawn.obj
+p5b:parent:chessboard
+p6b:position:1.400000 -1.700000 6.099992
+p6b:scale:1.000000 1.000000 1.000000
+p6b:rotation:0.000000 -0.000000 0.000000
+p6b:mesh:./res/models/pieces/pawn.obj
+p6b:parent:chessboard
+p7b:position:3.699999 -1.700000 6.099992
+p7b:scale:1.000000 1.000000 1.000000
+p7b:rotation:0.000000 -0.000000 0.000000
+p7b:mesh:./res/models/pieces/pawn.obj
+p7b:parent:chessboard
+p8b:position:6.399996 -1.700000 6.099992
+p8b:scale:1.000000 1.000000 1.000000
+p8b:rotation:0.000000 -0.000000 0.000000
+p8b:mesh:./res/models/pieces/pawn.obj
+p8b:parent:chessboard
+
+bk:position:-1.200001 -1.800000 8.699996
+bk:rotation:0.000000 0.000000 -6.283185
+bk:mesh:./res/models/pieces/king.obj
+bk:parent:chessboard
+
+bq:position:1.2 -1.800000 8.699998
+bq:rotation:0.000000 0.000000 -6.283185
+bq:mesh:./res/models/pieces/queen.obj
+bq:parent:chessboard
+
+bc1:position:8.599997 -1.800000 8.499997
+bc1:rotation:0.000000 0.000000 -6.283185
+bc1:mesh:./res/models/pieces/castle.obj
+bc1:parent:chessboard
+bc2:position:-8.799997 -1.800000 8.499997
+bc2:rotation:0.000000 0.000000 6.283185
+bc2:mesh:./res/models/pieces/castle.obj
+bc2:parent:chessboard
+
+bn1:position:6.399996 -0.700000 8.699998
+bn1:scale:1.000000 1.000000 1.000000
+bn1:rotation:0.000000 0.000000 -6.283185
+bn1:mesh:./res/models/pieces/knight.obj
+bn1:parent:chessboard
+bn2:position:-5.999997 -0.700000 8.999999
+bn2:scale:1.000000 1.000000 1.000000
+bn2:rotation:0.000000 0.000000 -6.283185
+bn2:mesh:./res/models/pieces/knight.obj
+bn2:parent:chessboard
+
+bb1:position:3.799998 -1.700000 8.699998
+bb1:scale:1.000000 1.000000 1.000000
+bb1:rotation:0.000000 0.000000 -6.283185
+bb1:mesh:./res/models/pieces/bishop.obj
+bb1:parent:chessboard
+bb2:position:-3.899999 -1.700000 8.799998
+bb2:scale:0.900000 1.000000 1.000000
+bb2:rotation:0.000000 0.000000 -6.283185
+bb2:mesh:./res/models/pieces/bishop.obj
+bb2:parent:chessboard
+
+# White pieces
+#---------------------
+p1w:position:8.699996 -1.700000 -6.099992
+p1w:scale:1.000000 1.000000 1.000000
+p1w:rotation:0.000000 -0.000000 0.000000
+p1w:mesh:./res/models/pieces/pawn.obj
+p1w:parent:chessboard
+p2w:position:-8.799997 -1.700000 -6.099992
+p2w:scale:1.000000 1.000000 1.000000
+p2w:rotation:0.000000 -0.000000 0.000000
+p2w:mesh:./res/models/pieces/pawn.obj
+p2w:parent:chessboard
+p3w:position:-6.099996 -1.700000 -6.099992
+p3w:scale:1.000000 1.000000 1.000000
+p3w:rotation:0.000000 -0.000000 0.000000
+p3w:mesh:./res/models/pieces/pawn.obj
+p3w:parent:chessboard
+p4w:position:-3.699998 -1.700000 -6.099992
+p4w:scale:1.000000 1.000000 1.000000
+p4w:rotation:0.000a000 -0.000000 0.000000
+p4w:mesh:./res/models/pieces/pawn.obj
+p4w:parent:chessboard
+p5w:position:-1.100000 -1.700000 -6.099992
+p5w:scale:1.000000 1.000000 1.000000
+p5w:rotation:0.000000 -0.000000 0.000000
+p5w:mesh:./res/models/pieces/pawn.obj
+p5w:parent:chessboard
+p6w:position:1.400000 -1.700000 -6.099992
+p6w:scale:1.000000 1.000000 1.000000
+p6w:rotation:0.000000 -0.000000 0.000000
+p6w:mesh:./res/models/pieces/pawn.obj
+p6w:parent:chessboard
+p7w:position:3.699999 -1.700000 -6.099992
+p7w:scale:1.000000 1.000000 1.000000
+p7w:rotation:0.000000 -0.000000 0.000000
+p7w:mesh:./res/models/pieces/pawn.obj
+p7w:parent:chessboard
+p8w:position:6.399996 -1.700000 -6.099992
+p8w:scale:1.000000 1.000000 1.000000
+p8w:rotation:0.000000 -0.000000 0.000000
+p8w:mesh:./res/models/pieces/pawn.obj
+p8w:parent:chessboard
+
+wk:position:1.2 -1.800000 -8.699998
+wk:rotation:0.000000 0.000000 -6.283185
+wk:mesh:./res/models/pieces/king.obj
+wk:parent:chessboard
+
+wq:position:-1.2 -1.800000 -8.699998
+wq:rotation:0.000000 0.000000 -6.283185
+wq:mesh:./res/models/pieces/queen.obj
+wq:parent:chessboard
+
+wc1:position:8.599997 -1.800000 -8.499997
+wc1:rotation:0.000000 0.000000 -6.283185
+wc1:mesh:./res/models/pieces/castle.obj
+wc1:parent:chessboard
+wc2:position:-8.799997 -1.800000 -8.499997
+wc2:rotation:0.000000 0.000000 -6.283185
+wc2:mesh:./res/models/pieces/castle.obj
+wc2:parent:chessboard
+
+wn1:position:6.399996 -0.700000 -8.699998
+wn1:scale:1.000000 1.000000 1.000000
+wn1:rotation:0.000000 0.000000 -6.283185
+wn1:mesh:./res/models/pieces/knight.obj
+wn1:parent:chessboard
+wn2:position:-5.999997 -0.700000 -8.999999
+wn2:scale:1.000000 1.000000 1.000000
+wn2:rotation:0.000000 0.000000 -6.283185
+wn2:mesh:./res/models/pieces/knight.obj
+wn2:parent:chessboard
+
+wb1:position:3.799998 -1.700000 -8.699998
+wb1:scale:1.000000 1.000000 1.000000
+wb1:rotation:0.000000 0.000000 -6.283185
+wb1:mesh:./res/models/pieces/bishop.obj
+wb1:parent:chessboard
+wb2:position:-3.899999 -1.700000 -8.799998
+wb2:scale:0.900000 1.000000 1.000000
+wb2:rotation:0.000000 0.000000 -6.283185
+wb2:mesh:./res/models/pieces/bishop.obj
+wb2:parent:chessboard
+
+
